@@ -21,43 +21,31 @@
           </ul>
         </div>
       </nav>
-    </header
-    <div class="container-fluid mt-5">
-      <div class="row">
-        <div class="col-md-6 offset-md-2">
-          <h1 class="en">Oba Takeshi</h1>
-          <h1 class="ja">おおば たけし</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 offset-md-2">
-          <div class="form-group">
-            <label for="selection">Age</label>
-            <select id="selection" class="form-control">
-              <option>
-              <option>21
-            </select>
+    </header>
+    <div class="container-fluid mt-4">
+      <marquee direction="up" height="100%">
+        <div class="row mt-1">
+          <div class="col-md-8 offset-md-2 his-white">
+            <p>
+              1996 (0)<br>
+              島根県浜田市にて誕生<br><br><br><br><br>
+              2006 (10)<br>
+              島根県???に移住<br><br><br><br><br>
+              2015 (19)<br>
+              ???大学???学部???学科(情報系)に進学<br><br><br><br><br>
+              2016 (20)<br>
+              家主に無断で天ぷらを揚げる<br>
+              家主に無断でカレーを作成<br><br><br><br><br>
+              2017 (21)<br>
+              Beeinfo作成                       <a href="https://github.com/ObaTakeshi/Beeinfo-1">Gitレポジトリ</a><br>
+              アルゴリズムを視覚化したiOSアプリ作成  <a href="https://github.com/ObaTakeshi/Algorithm">Gitレポジトリ</a><br>
+              某IT企業でアルバイト<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              2018 (22)<br>
+              卒業研究着手
+            </p>
           </div>
         </div>
-        <div class="col-md-6">
-          <p class="lead en"><strong>Outline</strong></p>
-          <p class="en"><strong>
-            I am currently a university in Japan.
-            <br>
-            I am interested in IT, and Machine Learnimg in particular.
-            <br>
-            Ruby on rails! Swift! Julia!
-          </strong></p>
-          <p class="lead ja"><strong>概要</strong></p>
-          <p class="ja"><strong>
-            大学生(情報学専攻)
-            <br>
-            機械学習に興味あり
-            <br>
-            Ruby! Swift! Julia!
-          </strong></p>
-        </div>
-      </div>
+      </marquee>
     </div>
     <footer class="footer">
       <input id="language-swicher" type="checkbox" data-toggle="toggle" data-on="English" data-off="日本語">
@@ -70,7 +58,7 @@
     <script>
       $('#language-swicher').change(function() {
         if ($(this).prop('checked')) {
-          showLanguage('en');
+          window.history.back(-1);
         } else {
           showLanguage('ja');
         }
@@ -86,6 +74,7 @@
           }
         }
       }
-  </script>
+    </script>
+
   </body>
 </html>

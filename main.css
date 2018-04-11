@@ -2,7 +2,7 @@ body {
   background-color: #222222 !important;
 }
 
-p, h1, label, marquee {
+p, h1, label, marquee, th, td, a {
   color: #00ECFF !important;
 }
 
@@ -27,4 +27,8 @@ body > .container {
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.his-white p {
+  color: white !important;
 }
