@@ -1,4 +1,10 @@
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  height: 100%;
   background-color: #222222 !important;
 }
 
@@ -17,9 +23,11 @@ p, h1, label, marquee, th, td, a {
   /* Set the fixed height of the footer here */
   height: 40px;
 }
+
 body > .container {
   padding: 60px 15px 0;
 }
+
 .container .text-muted {
   margin: 20px 0;
 }
@@ -31,4 +39,8 @@ body > .container {
 
 .his-white p {
   color: white !important;
+}
+
+.history {
+  height: 100%;
 }
