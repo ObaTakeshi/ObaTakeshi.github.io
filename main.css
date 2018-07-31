@@ -5,11 +5,11 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: #222222 !important;
+  background-color: #f7e9e3 !important;
 }
 
 p, h1, label, marquee, th, td, a {
-  color: #00ECFF !important;
+  color: #6dc9c8 !important;
 }
 
 .en {
@@ -43,4 +43,8 @@ body > .container {
 
 .history {
   height: 100%;
+}
+
+.main-content {
+  padding-top: 100px;
 }
