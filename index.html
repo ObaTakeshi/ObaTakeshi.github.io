@@ -42,7 +42,6 @@
             <ul class="navbar-nav">
               <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
               <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
-              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -60,10 +59,12 @@
       </div>
       <h3>Oba Takeshi</h3>
       <div class="row">
-        <p class="col-md-6">
-          情報・大学生<br>
+        <p class="col-md-4">
+          情報工学・大学院生<br>
           1996年 7月23日<br>
           島根県出身<br>
+          島根大学 総合理工学部 卒<br>
+          現在、静岡県の大学院1年<br>
           <br>
           ダイビング<br>
           <br>
@@ -75,7 +76,30 @@
           <a href="https://obq777.hatenablog.com/"><strong>はてなブログ</strong></a><br>
           <a href="https://github.com/ObaTakeshi"><strong>GitHub</strong></a>
         </p>
+        <div class="col-md-8">
+          <img src="images/IMG_4359.JPG" class="col-md-8">
+        </div>
       </div>
+    </div>
+    <div class="box main-content offset-md-2 container-fluid" id="works">
+      <h1>Works</h1>
+      <h2>卒業研究</h2>
+      <p>
+        使用言語・フレームワーク: Python, PyTorch<br>
+        制作期間: 12ヶ月<br>
+        制作人数: 1人<br>
+        実装担当: Survey, 実装, 実験<br>
+        概要: 機械学習手法の1種であるGenerative Adversarial Networks (GAN)を用いた画像からツイートの獲得<br>
+      </p>
+      <h4>モデル</h4>
+      <img src="images/gan_caption.png" width="400" height="160"><br>
+      <h4>生成例</h4>
+      <img src="images/generated_caption.png" width="400" height="235">
+      <p>
+        z1: 入力ノイズ1<br>
+        z2: 入力ノイズ2<br>
+        Encoder-decoderモデル: GANを用いない生成<br>
+      </p>
     </div>
     <div class="box main-content offset-md-2 container-fluid" id="works">
       <h1>Works</h1>
@@ -84,7 +108,7 @@
         使用言語・フレームワーク: Ruby on rails<br>
         制作期間: ６ヶ月<br>
         制作人数: グループ(6人)<br>
-        実装担当: デプロイ, DB部分, バックエンド部分<br>
+        実装担当: デプロイ, DB設計, バックエンド部分, Gem調査<br>
         概要: キュレーションサイト。 Twitterの情報をcronで収集し、ユーザーが記事を作成し公開できる。
       </p>
       <a href="https://github.com/ObaTakeshi/Beeinfo-1"><strong>レポジトリ</strong></a>
@@ -99,12 +123,20 @@
         実装担当: すべて<br>
         概要: 各種ソート、クラスタリングを視覚的に行うだけのアプリ。見てて楽しい。<br>
       </p>
-      <div class="row">
-        <img src="images/quicksort.gif" height="512" width="288" class="img-fluid border"></img>
-        <img src="images/heapsort.gif" height="512" width="288" class="img-fluid border"></img>
-        <img src="images/kmeans.gif" height="512" width="288" class="img-fluid border"></img>
-      </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QSIJu6qJMwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <br><a href="https://github.com/ObaTakeshi/Algorithm"><strong>レポジトリ</strong></a>
+    </div>
+    <div class="box main-content offset-md-2 container-fluid">
+      <h1>Works</h1>
+      <h2>Solor system Orbit Simulator</h2>
+      <p>
+        使用言語・フレームワーク: Python, matplotlib<br>
+        制作期間: 1ヶ月<br>
+        制作人数: 1人<br>
+        実装担当: すべて<br>
+        概要: 太陽系の惑星軌道のシミュレータ. 軌道要素を入力すれば理論上太陽系内の天体に対応可能<br>
+      </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/uw6ei3M5GuU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="box main-content offset-md-2 container-fluid">
       <h1>Works</h1>
@@ -117,29 +149,6 @@
         概要: アルバイトのチュートリアルで作成。記事の閲覧・お気に入りはもちろん、Rssのリンクを追加・削除もできる。<br>
       </p>
       <a href="https://github.com/ObaTakeshi/RssReader"><strong>レポジトリ</strong></a>
-    </div>
-    <div class="box main-content offset-md-2 container-fluid">
-      <h1>Works</h1>
-      <h2>Others</h2>
-      <h4>画像キャプション</h4>
-      <p>
-        使用言語・フレームワーク: Python, Pytorch<br>
-        モデル: CNN + LSTM<br>
-        概要: 機械学習を用いて、画像から説明文を出力します。学習に用いたデータセットの関係から、説明文ではなくツイートが出力されている。<br>
-      </p>
-      <br><h4>字面から誰のセリフかを推定</h4>
-      <p>
-        使用言語・フレームワーク: Python, Pytorch<br>
-        モデル: LSTM<br>
-        概要: 機械学習を用いて、ガンダムのセリフ集から誰のセリフからの推定を行いました。テストでの正解率が低いのはご愛嬌。<br>
-      </p>
-      <a href="https://obq777.hatenablog.com/"><strong>詳しくはブログにて</strong></a>
-    </div>
-    <div class="box main-content offset-md-2 container-fluid" id="contact">
-      <h1>Contact</h1>
-      <p>興味がある方は</p>
-      <a href="mailto:obqtake@gmail.com"><strong>こちらへメールを</strong></a>
-
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

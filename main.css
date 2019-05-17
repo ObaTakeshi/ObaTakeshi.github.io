@@ -5,15 +5,15 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: #f7e9e3 !important;
+  background-color: #4d639f !important;
 }
 
 p, label, marquee, th, td, a, h2, h3, h4 {
-  color: #6dc9c8 !important;
+  color: #d6d680 !important;
 }
 
 h1 {
-  color: #ffc0c2 !important;
+  color: #d6d680 !important;
 }
 
 header {
