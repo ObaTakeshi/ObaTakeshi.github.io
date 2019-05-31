@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <!--TODO 一番上に戻れる機能を実装  -->
 <html lang="ja">
-  <head>
-    <!--
+
+<head>
+  <!--
     	=-==. -=- ∧＿∧
     	==-=-=と(`･ω･´)  よく見つけたな！
     	=-=　-=/　と_ノ
@@ -13,166 +14,243 @@
     	　`つ \ =-=　　URL：https://twitter.com/obatake16?lang=ja
     	　\,⌒＼\,,,_=-====
   	-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120202792-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120202792-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-      gtag('config', 'UA-120202792-1');
-    </script>
-    <meta charset="utf-8">
-    <title>Oba Takeshi</title>
-    <link rel="stylesheet" href="main.css">
-    <!-- Bootstrap -->
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  </head>
-  <body>
-    <div class="box">
-      <header>
-        <nav class="nav navbar navbar-expand-md offset-md-2">
-          <a href="./index.html" class="navbar-brand"><img src="images/23624455.png" width="30" height="30"></a>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="menu" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
-              <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <div class="offset-md-2">
+    gtag('config', 'UA-120202792-1');
+  </script>
+  <meta charset="utf-8">
+  <title>Oba Takeshi</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- Bootstrap -->
+  <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <div class="box">
+    <header>
+      <nav class="nav navbar navbar-expand-md offset-md-2">
+        <a href="./index.html" class="navbar-brand"><img src="images/23624455.png" width="30" height="30"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+            <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <div class="row">
+      <div class="offset-md-2 col-12">
         <h1>Welcome! My Space!</h1>
         <h1>ようこそ！</h1>
         <h1>I am Oba Takeshi</h1><br><br>
-        <a href="#profile"><h1>↓↓↓ more detail ↓↓↓</h1></a>
+        <a href="#profile">
+          <h1>↓↓↓ more detail ↓↓↓</h1>
+        </a>
       </div>
     </div>
-    <div class="main-content box container-fluid offset-md-2" id="profile">
-      <div class="row">
-        <h1 class="col-md-6">Profile</h1>
+  </div>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <div class="main-content box container-fluid offset-md-2" id="profile">
+    <div class="row">
+      <h1 class="col-md-6">Profile</h1>
+    </div>
+    <h3>Oba Takeshi</h3>
+    <div class="row">
+      <p class="col-md-4">
+        情報工学・大学院生<br>
+        1996年 7月23日<br>
+        島根県出身<br>
+        島根大学 総合理工学部 卒<br>
+        現在、静岡県の大学院1年<br>
+        <br>
+        ダイビング<br>
+        <br>
+        基本情報技術者, TOEIC公開 665, TOEIC(IP) 750, 英検2級<br>
+        最近は機械学習関連をやってます<br>
+        Python, Ruby, Julia<br>
+        Ruby on rails, Pytorch<br><br>
+        <a href="#works">↓↓↓ more detail ↓↓↓</a><br>
+        <a href="https://obq777.hatenablog.com/"><strong>はてなブログ</strong></a><br>
+        <a href="https://github.com/ObaTakeshi"><strong>GitHub</strong></a>
+      </p>
+      <div class="col-md-8">
+        <img src="images/IMG_4359.JPG" width="400" height="300" class="img-fluid rounded">
       </div>
-      <h3>Oba Takeshi</h3>
-      <div class="row">
-        <p class="col-md-4">
-          情報工学・大学院生<br>
-          1996年 7月23日<br>
-          島根県出身<br>
-          島根大学 総合理工学部 卒<br>
-          現在、静岡県の大学院1年<br>
-          <br>
-          ダイビング<br>
-          <br>
-          <!-- 基本情報技術者, TOEIC公開 665, TOEIC(IP) 750, 英検2級<br><br> -->
-          最近は機械学習関連をやってます<br>
-          Python, Ruby, Julia<br>
-          Ruby on rails, Pytorch<br><br>
-          <a href="#works">↓↓↓ more detail ↓↓↓</a><br>
-          <a href="https://obq777.hatenablog.com/"><strong>はてなブログ</strong></a><br>
-          <a href="https://github.com/ObaTakeshi"><strong>GitHub</strong></a>
+    </div>
+  </div>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <div class="box main-content offset-md-2 container-fluid" id="works">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Works</h1>
+        <h2>卒業研究</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <p>
+          使用言語・フレームワーク: Python, PyTorch<br>
+          制作期間: 12ヶ月<br>
+          制作人数: 1人<br>
+          実装担当: Survey, 実装, 実験<br>
+          概要: 機械学習手法の1種であるGenerative Adversarial Networks (GAN)を用いた画像からツイートの獲得<br>
         </p>
-        <div class="col-md-8">
-          <img src="images/IMG_4359.JPG" class="col-md-8">
-        </div>
+      </div>
+      <div class="col-md-8">
+        <h4>モデル</h4>
+        <img src="images/gan_caption.png" width="400" height="160" class="img-fluid"><br>
+        <h4>生成例</h4>
+        <img src="images/generated_caption.png" width="400" height="235" class="img-fluid">
+        <p>
+          z1: 入力ノイズ1<br>
+          z2: 入力ノイズ2<br>
+          Encoder-decoderモデル: GANを用いない生成<br>
+        </p>
       </div>
     </div>
-    <div class="box main-content offset-md-2 container-fluid" id="works">
-      <h1>Works</h1>
-      <h2>卒業研究</h2>
-      <p>
-        使用言語・フレームワーク: Python, PyTorch<br>
-        制作期間: 12ヶ月<br>
-        制作人数: 1人<br>
-        実装担当: Survey, 実装, 実験<br>
-        概要: 機械学習手法の1種であるGenerative Adversarial Networks (GAN)を用いた画像からツイートの獲得<br>
-      </p>
-      <h4>モデル</h4>
-      <img src="images/gan_caption.png" width="400" height="160"><br>
-      <h4>生成例</h4>
-      <img src="images/generated_caption.png" width="400" height="235">
-      <p>
-        z1: 入力ノイズ1<br>
-        z2: 入力ノイズ2<br>
-        Encoder-decoderモデル: GANを用いない生成<br>
-      </p>
+  </div>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <div class="box main-content offset-md-2 container-fluid" id="works">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Works</h1>
+        <h2>学習支援デスクトップアプリ</h2>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-md-4">
+        <p>
+          使用言語・フレームワーク: electron-vue<br>
+          制作期間: 1ヶ月<br>
+          制作人数: 1人<br>
+          概要: Todoリスト(Tree), イベント登録機能付きカレンダー, markdownエディタ, ポモドーロ・テクニック用ストップウォッチ機能を持ったアプリ.<br>
+          electron製のため, マルチプラットフォーム. データベースはfirebaseを利用しているため, 異なるPCで同期可能.<br>
+        </p>
+        <a href="https://github.com/ObaTakeshi/study-support"><strong>repository<strong></a>
+      </div>
+      <div class="col-md-8">
+        <img src="images/study_support_demo_1.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <div class="box main-content offset-md-2 container-fluid" id="works">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Works</h1>
+        <h2>Beeinfo</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <p>
+          使用言語・フレームワーク: Ruby on rails<br>
+          制作期間: ６ヶ月<br>
+          制作人数: グループ(6人)<br>
+          実装担当: デプロイ, DB設計, バックエンド部分, Gem調査<br>
+          概要: キュレーションサイト。 Twitterの情報をcronで収集し、ユーザーが記事を作成し公開できる。
+        </p>
+        <a href="https://github.com/ObaTakeshi/Beeinfo-1"><strong>repository</strong></a>
+      </div>
+      <div class="col-md-8">
 
-    <div class="box main-content offset-md-2 container-fluid" id="works">
-      <h1>Works</h1>
-      <h2>学習支援デスクトップアプリ</h2>
-      <p>
-        使用言語・フレームワーク: electron-vue<br>
-        制作期間: 1ヶ月<br>
-        制作人数: 1人<br>
-        概要: Todoリスト(Tree), イベント登録機能付きカレンダー, markdownエディタ, ポモドーロ・テクニック用ストップウォッチ機能を持ったアプリ.<br>
-        electron製のため, マルチプラットフォーム. データベースはfirebaseを利用しているため, 異なるPCで同期可能.<br>
-      </p>
-      <img src="images/study_support_demo_1.png" width="646" height="502"><br>
-      <a href="https://github.com/ObaTakeshi/study-support"><strong>repository<strong></a>
+      </div>
     </div>
+  </div>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <div class="box main-content offset-md-2 container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Works</h1>
+        <h2>Algorithm</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <p>
+          使用言語・フレームワーク: iOSアプリ(swift)<br>
+          制作期間: 1ヶ月<br>
+          制作人数: 1人<br>
+          実装担当: すべて<br>
+          概要: 各種ソート、クラスタリングを視覚的に行うだけのアプリ。見てて楽しい。<br>
+        </p>
+        <br><a href="https://github.com/ObaTakeshi/Algorithm"><strong>repository</strong></a>
+      </div>
+      <div class="col-md-8">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QSIJu6qJMwY" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <div class="box main-content offset-md-2 container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Works</h1>
+        <h2>Solor system Orbit Simulator</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <p>
+          使用言語・フレームワーク: Python, matplotlib<br>
+          制作期間: 1ヶ月<br>
+          制作人数: 1人<br>
+          実装担当: すべて<br>
+          概要: 太陽系の惑星軌道のシミュレータ. 軌道要素を入力すれば理論上太陽系内の天体に対応可能<br>
+        </p>
+      </div>
+      <div class="col-md-8">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uw6ei3M5GuU" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <div class="box main-content offset-md-2 container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Works</h1>
+        <h2>RSSReader</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <p>
+          使用言語・フレームワーク: iOSアプリ(swift)<br>
+          制作期間: 1ヶ月<br>
+          制作人数: 1人<br>
+          実装担当: すべて<br>
+          概要: アルバイトのチュートリアルで作成。記事の閲覧・お気に入りはもちろん、Rssのリンクを追加・削除もできる。<br>
+        </p>
+        <a href="https://github.com/ObaTakeshi/RssReader"><strong>repository</strong></a>
+      </div>
+      <div class="col-md-8">
+      </div>
+    </div>
+  </div>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+  <script>
+    $.scrollify({ section: ".box" });
+  </script>
+</body>
 
-    <div class="box main-content offset-md-2 container-fluid" id="works">
-      <h1>Works</h1>
-      <h2>Beeinfo</h2>
-      <p>
-        使用言語・フレームワーク: Ruby on rails<br>
-        制作期間: ６ヶ月<br>
-        制作人数: グループ(6人)<br>
-        実装担当: デプロイ, DB設計, バックエンド部分, Gem調査<br>
-        概要: キュレーションサイト。 Twitterの情報をcronで収集し、ユーザーが記事を作成し公開できる。
-      </p>
-      <a href="https://github.com/ObaTakeshi/Beeinfo-1"><strong>repository</strong></a>
-    </div>
-    <div class="box main-content offset-md-2 container-fluid">
-      <h1>Works</h1>
-      <h2>Algorithm</h2>
-      <p>
-        使用言語・フレームワーク: iOSアプリ(swift)<br>
-        制作期間: 1ヶ月<br>
-        制作人数: 1人<br>
-        実装担当: すべて<br>
-        概要: 各種ソート、クラスタリングを視覚的に行うだけのアプリ。見てて楽しい。<br>
-      </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/QSIJu6qJMwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br><a href="https://github.com/ObaTakeshi/Algorithm"><strong>repository</strong></a>
-    </div>
-    <div class="box main-content offset-md-2 container-fluid">
-      <h1>Works</h1>
-      <h2>Solor system Orbit Simulator</h2>
-      <p>
-        使用言語・フレームワーク: Python, matplotlib<br>
-        制作期間: 1ヶ月<br>
-        制作人数: 1人<br>
-        実装担当: すべて<br>
-        概要: 太陽系の惑星軌道のシミュレータ. 軌道要素を入力すれば理論上太陽系内の天体に対応可能<br>
-      </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/uw6ei3M5GuU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="box main-content offset-md-2 container-fluid">
-      <h1>Works</h1>
-      <h2>RSSReader</h2>
-      <p>
-        使用言語・フレームワーク: iOSアプリ(swift)<br>
-        制作期間: 1ヶ月<br>
-        制作人数: 1人<br>
-        実装担当: すべて<br>
-        概要: アルバイトのチュートリアルで作成。記事の閲覧・お気に入りはもちろん、Rssのリンクを追加・削除もできる。<br>
-      </p>
-      <a href="https://github.com/ObaTakeshi/RssReader"><strong>repository</strong></a>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <script>
-      $.scrollify({section:".box"});
-    </script>
-  </body>
 </html>
