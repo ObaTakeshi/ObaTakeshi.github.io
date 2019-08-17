@@ -5,24 +5,20 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: #4d639f !important;
+  background-color: rgb(246, 248, 250) !important;
 }
 
-p, label, marquee, th, td, a, h2, h3, h4 {
-  color: #d6d680 !important;
-}
+/* p, label, marquee, th, td, a, h1, h2, h3, h4 {
+  color: rgb(0, 0, 0) !important;
+} */
 
-h1 {
-  color: #d6d680 !important;
-}
-
-header {
+/* header {
   background-color: #0e3150 !important;
-}
+} */
 
-.navbar-toggler .navbar-toggler-icon {
+/* .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+} */
 
 .footer {
   position: absolute;
@@ -47,4 +43,19 @@ body > .container {
 
 .his-white p {
   color: white !important;
+}
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: black;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
 }
