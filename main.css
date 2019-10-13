@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'kirugo';
+    src: url('GN-KillGothic-U-KanaO.ttf') format('truetype');
+  }
+
 html {
   height: 100%;
 }
@@ -6,56 +11,42 @@ body {
   margin: 0;
   height: 100%;
   background-color: rgb(246, 248, 250) !important;
+  font-weight: bold !important;
 }
 
-/* p, label, marquee, th, td, a, h1, h2, h3, h4 {
-  color: rgb(0, 0, 0) !important;
-} */
-
-/* header {
-  background-color: #0e3150 !important;
-} */
-
-/* .navbar-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-} */
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 40px;
-}
-
-body > .container {
-  padding: 60px 15px 0;
-}
-
-.container .text-muted {
-  margin: 20px 0;
-}
-
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.his-white p {
-  color: white !important;
+h1, h2, h3, h4 {
+  font-family: "kirugo" !important;
+  font-size: xx-large !important;
+  color: red !important;
 }
 
 .btn-flat-border {
   display: inline-block;
   padding: 0.3em 1em;
   text-decoration: none;
-  color: black;
-  border: solid 2px #67c5ff;
+  color: red;
+  border: solid 2px red;
   border-radius: 3px;
   transition: .4s;
 }
 
 .btn-flat-border:hover {
-  background: #67c5ff;
+  background: red;
   color: white;
+}
+
+.outer-title {
+  position: relative !important;
+  text-align: center !important;
+}
+
+.title {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translateY(-50%) translateX(-50%) !important;
+  -webkit- transform: translateY(-50%) translateX(-50%) !important;
+  font-family: "kirugo" !important;
+  font-size: 11vw !important;
+  color: red !important;
 }
