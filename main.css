@@ -47,6 +47,6 @@ h1, h2, h3, h4 {
   transform: translateY(-50%) translateX(-50%) !important;
   -webkit- transform: translateY(-50%) translateX(-50%) !important;
   font-family: "kirugo" !important;
-  font-size: 11vw !important;
+  font-size: 10vw !important;
   color: red !important;
 }

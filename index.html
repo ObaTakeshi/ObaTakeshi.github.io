@@ -23,11 +23,11 @@
 </head>
 
 <body>
-    <div class="box outer-title">
-      <div class="title">
-        大庭 武志
-      </div>
+  <div class="box outer-title">
+    <div class="title">
+      大庭 武志
     </div>
+  </div>
   <!-- -------------------------------------------------------------------------------------------- -->
   <div class="main-content box container-fluid offset-md-2" id="profile">
     <div class="row">
@@ -270,7 +270,9 @@
   <script src="./bootstrap/js/bootstrap.min.js"></script>
   <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
   <script>
-    $.scrollify({ section: ".box" });
+    $(window).load(function () {
+      $.scrollify({ section: ".box" });
+    });
   </script>
 </body>
 </html>
