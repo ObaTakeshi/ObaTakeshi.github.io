@@ -20,6 +20,11 @@ h1, h2, h3, h4 {
   color: red !important;
 }
 
+p {
+  word-wrap: normal;
+  overflow-wrap: break-word;
+}
+
 .btn-flat-border {
   display: inline-block;
   padding: 0.3em 1em;
@@ -49,4 +54,9 @@ h1, h2, h3, h4 {
   font-family: "kirugo" !important;
   font-size: 10vw !important;
   color: red !important;
+}
+
+.article {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
 }
