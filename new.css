@@ -1,91 +1,129 @@
-html {
-  height: 100%;
-  width: 100%;
-  font-family: sans-serif;
-}
-
-header {
-  width: 80%;
-  margin: 0 auto;
-}
-
-nav {
-  width: 80%;
-  margin: 0 auto;
-}
-
-ul {
-  padding: 0 !important;
-}
-
-li {
-  margin: 0 5%;
-}
-
-footer {
-  position: fixed;
-  bottom: 1vh;
-  left: 10%;
-  background-color: white;
-}
-
-img {
-  width: 90%;
-  padding: 10%;
-  height: auto;
-}
-
-.nav_a {
-  text-decoration: none;
-}
-
-nav ul li.current a{
-  color: #F33135;
-  }
-
-.nav_a:hover{
-  color: #E7DA66;
-  }
-
-.content-wrapper {
-  position: relative;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.content {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-}
-
-.content-s {
-  height: 100vh;
-}
-
-.main-content {
-  position: relative;
-  width: 60%;
-}
-
-.figure-content {
-  position: relative;
-  width: 40%;
-  padding: 5%;
-}
-
-.gototop {
-  border-radius: 50%;
-  position: fixed;
-  width: 4vh;
-  height: 4vh;
-  bottom: 4vh;
-  right: 20%;
-  background-color: whitesmoke;
-}
-
 .gototop a {
   text-align: center;
   display: block;
   text-decoration: none;
+}
+
+/*
+スマホタブレットサイズ用
+*/
+@media screen and (max-width: 780px) {
+  article {
+    padding: 2vh 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .content, .content-s {
+    padding: 2vh 0;
+  }
+
+  .gototop {
+    border-radius: 50%;
+    position: fixed;
+    width: 5vh;
+    height: 5vh;
+    bottom: 1vh;
+    right: 1vh;
+    background-color: whitesmoke;
+  }
+}
+
+/*
+PCサイズ向け
+*/
+@media screen and (min-width: 781px) {
+  html {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+  }
+
+  header {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  nav {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  ul {
+    padding: 0 !important;
+  }
+
+  li {
+    margin: 0 5%;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 1vh;
+    left: 10%;
+    background-color: white;
+  }
+
+  img {
+    width: 90%;
+    padding: 10%;
+    height: auto;
+  }
+
+  .nav_a {
+    text-decoration: none;
+  }
+
+  nav ul li.current a{
+    color: #F33135;
+    }
+
+  .nav_a:hover{
+    color: #E7DA66;
+    }
+
+  .content-wrapper {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-s {
+    height: 100vh;
+  }
+
+  .main-content {
+    position: relative;
+    width: 60%;
+  }
+
+  .figure-content {
+    position: relative;
+    width: 40%;
+    padding: 5%;
+  }
+
+  .gototop {
+    border-radius: 50%;
+    position: fixed;
+    width: 4vh;
+    height: 4vh;
+    bottom: 4vh;
+    right: 20%;
+    background-color: whitesmoke;
+  }
+
 }
