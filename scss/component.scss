@@ -1,0 +1,29 @@
+$bg_color: #212121;
+$color: #039be5;
+$accent_color: #ffe0b2;
+
+$breakpoint: 780px;
+
+html {
+  background: $bg_color;
+}
+
+p,
+span,
+li {
+  color: $color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+small {
+  color: $accent_color;
+}
+
+ul {
+  list-style: none;
+}

@@ -15,20 +15,19 @@
     gtag('config', 'UA-120202792-1');
   </script>
 
-  <link rel="stylesheet" href="new.css">
+  <link rel="stylesheet" href="stylesheets/index.css">
 </head>
 <body>
-  <header>
-    <h1>大庭 武志 -Oba Takeshi-</h1>
-    <p>ポートフォリオ</p>
+  <header class="header">
+    <h1 class="header__title">大庭 武志 -Oba Takeshi-</h1>
+    <nav class="header__nav">
+      <ul class="header__ul">
+        <li class="header__li"><a href="#profile" class="nav_a">Profile</a></li>
+        <li class="header__li"><a href="#articles" class="nav_a">Articles/Links</a></li>
+        <li class="header__li"><a href="#works" class="nav_a">Works</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#profile" class="nav_a">Profile</a></li>
-      <li><a href="#articles" class="nav_a">Articles/Links</a></li>
-      <li><a href="#works" class="nav_a">Works</a></li>
-    </ul>
-  </nav>
   <main>
     <div class="content-wrapper">
       <article id="profile">
@@ -41,9 +40,11 @@
             <p>静岡県立大学 経営情報イノベーション研究科 修了</p>
 
             <h3>資格</h3>
-            <p>応用情報技術者</p>
-            <p>TOEIC 公開 665 / IP 750</p>
-            <p>英検 2級</p>
+            <ul>
+              <li>応用情報技術者</li>
+              <li>TOEIC 公開 665 / IP 750</li>
+              <li>英検 2級</li>
+            </ul>
           </div>
           <div class="figure-content">
             <img src="images/IMG_4359.JPG" alt="ダイビングの画像" loading="lazy">
@@ -146,7 +147,7 @@
         </section>
       </article>
       <div class="gototop">
-        <a href="#top">^</a>
+        <a href="#top" class="gototop__content">^</a>
       </div>
     </div>
   </main>

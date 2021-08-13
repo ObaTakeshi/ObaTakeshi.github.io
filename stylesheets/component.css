@@ -1,0 +1,23 @@
+html {
+  background: #212121;
+}
+
+p,
+span,
+li,
+small {
+  color: #039be5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  color: #ffe0b2;
+}
+
+ul {
+  list-style: none;
+}
