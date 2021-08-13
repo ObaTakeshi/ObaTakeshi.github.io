@@ -23,6 +23,39 @@ ul {
   list-style: none;
 }
 
+/* スマホタブレットサイズ用 */
+@media screen and (max-width: 780px) {
+  article {
+    padding: 2vh 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+
+/* PCサイズ向け */
+@media screen and (min-width: 780px) {
+  html {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+  }
+  img {
+    width: 90%;
+    padding: 10%;
+    height: auto;
+  }
+  .content-wrapper {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -93,45 +126,16 @@ ul {
   }
 }
 
-/*
-スマホタブレットサイズ用
-*/
+/* スマホタブレットサイズ用 */
 @media screen and (max-width: 780px) {
-  article {
-    padding: 2vh 0;
-  }
-  img {
-    width: 100%;
-    height: auto;
-  }
-  iframe {
-    width: 100%;
-  }
   .content,
   .content-s {
     padding: 2vh 0;
   }
 }
 
-/*
-PCサイズ向け
-*/
-@media screen and (min-width: 781px) {
-  html {
-    height: 100%;
-    width: 100%;
-    font-family: sans-serif;
-  }
-  img {
-    width: 90%;
-    padding: 10%;
-    height: auto;
-  }
-  .content-wrapper {
-    position: relative;
-    width: 800px;
-    margin: 0 auto;
-  }
+/* PCサイズ向け */
+@media screen and (min-width: 780px) {
   .content {
     height: 100vh;
     display: -webkit-box;
