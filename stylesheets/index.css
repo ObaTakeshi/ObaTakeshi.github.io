@@ -14,7 +14,8 @@ h2,
 h3,
 h4,
 h5,
-a {
+a,
+small {
   color: #ffe0b2;
 }
 
@@ -33,7 +34,7 @@ ul {
 
 @media screen and (min-width: 780px) {
   .header {
-    width: 80%;
+    width: 800px;
     margin: 0 auto;
   }
 }
@@ -85,6 +86,13 @@ ul {
   font-size: 22px;
 }
 
+@media screen and (min-width: 780px) {
+  .footer {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
 /*
 スマホタブレットサイズ用
 */
@@ -121,7 +129,7 @@ PCサイズ向け
   }
   .content-wrapper {
     position: relative;
-    width: 80%;
+    width: 800px;
     margin: 0 auto;
   }
   .content {

@@ -4,7 +4,7 @@
   display: flex;
   align-items: baseline;
   @media screen and (min-width: $breakpoint) {
-    width: 80%;
+    width: 800px;
     margin: 0 auto;
   }
 
@@ -52,6 +52,13 @@
   }
 }
 
+.footer {
+  @media screen and (min-width: $breakpoint) {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
 /*
 スマホタブレットサイズ用
 */
@@ -93,7 +100,7 @@ PCサイズ向け
 
   .content-wrapper {
     position: relative;
-    width: 80%;
+    width: 800px;
     margin: 0 auto;
   }
 
