@@ -1,33 +1,27 @@
 @import 'component';
 
-/* スマホタブレットサイズ用 */
-@media screen and (max-width: $breakpoint) {
-  .content,
-  .content-s {
-    padding: 2vh 0;
-  }
-}
-
-/* PCサイズ向け */
-@media screen and (min-width: $breakpoint) {
-  .content {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-  }
-
-  .content-s {
+.page {
+  @media screen and (min-width: $breakpoint) {
     height: 100vh;
   }
 
-  .main-content {
-    position: relative;
-    width: 60%;
+  &__content {
+    @media screen and (min-width: $breakpoint) {
+      display: flex;
+    }
   }
 
-  .figure-content {
-    position: relative;
-    width: 40%;
-    padding: 5%;
+  &__contentMain {
+    @media screen and (min-width: $breakpoint) {
+      width: 60%;
+    }
+  }
+
+  &__img {
+    @media screen and (min-width: $breakpoint) {
+      width: 40%;
+      margin-left: 10px;
+      object-fit: contain;
+    }
   }
 }
