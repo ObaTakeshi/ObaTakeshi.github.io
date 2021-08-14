@@ -1,0 +1,30 @@
+@import 'component';
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 220px;
+  height: 220px;
+  padding: 20px 10px;
+  background: $accent_color;
+
+  &__thumbnail {
+    height: 120px;
+    background: $color;
+    object-fit: cover;
+  }
+
+  &__title {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  &__description {
+    text-decoration: none;
+    font-size: 12px;
+  }
+}
